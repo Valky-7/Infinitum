@@ -65,7 +65,7 @@ Desenvolver uma base econômica física para garantir a sobrevivência durante a
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/Valky-7/Infinitum.git
 ```
 
 ### 2. Acessar a pasta
@@ -103,7 +103,6 @@ src/
  │   ├── pages/
  │   ├── app.routes.ts
  │   └── app.component.ts
- ├── assets/
  └── index.html
 ```
 
