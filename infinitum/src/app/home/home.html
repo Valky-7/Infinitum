@@ -1,29 +1,67 @@
-<section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+<section class="relative mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
+  <div class="relative z-10">
+    <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm font-semibold text-cyan-100">
+      <span class="h-2 w-2 rounded-full bg-emerald-300 shadow-[0_0_18px_rgba(110,231,183,0.85)]"></span>
+      Potencia global de dados, nuvem e criptoativos
+    </div>
 
-  <!-- TEXTO -->
-  <div>
-    <h1 class="text-5xl font-bold mb-6 text-blue-400">
-      INF<span class="text-white">INITUM</span>
+    <h1 class="max-w-4xl text-5xl font-black leading-tight text-white sm:text-6xl lg:text-7xl">
+      INF<span class="text-cyan-200">INITUM</span>
     </h1>
 
-    <p class="text-lg text-gray-300 leading-relaxed">
-      Uma potência global construída sobre dados, redes e inovação.
-      Líder mundial em serviços em nuvem e criptoativos.
+    <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
+      Uma nacao construida sobre redes inteligentes, servicos em nuvem e inovacao financeira. Agora, seu maior desafio e transformar dominio digital em resiliencia real.
     </p>
 
-    <a routerLink="/perfil"
-      class="inline-block mt-8 bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition">
-      Explorar Perfil
-    </a>
+    <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+      <a
+        routerLink="/perfil"
+        class="inline-flex items-center justify-center rounded-lg bg-cyan-300 px-6 py-3 font-bold text-slate-950 shadow-xl shadow-cyan-950/30 transition hover:bg-cyan-200"
+      >
+        Explorar perfil nacional
+      </a>
+      <a
+        routerLink="/contato"
+        class="inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/5 px-6 py-3 font-bold text-white transition hover:border-white/30 hover:bg-white/10"
+      >
+        Falar com a equipe
+      </a>
+    </div>
+
+    <div class="mt-12 grid max-w-2xl grid-cols-3 gap-3">
+      <div class="rounded-lg border border-white/10 bg-white/4 p-4">
+        <p class="text-2xl font-black text-white">#1</p>
+        <p class="mt-1 text-xs font-medium uppercase text-slate-400">Nuvem global</p>
+      </div>
+      <div class="rounded-lg border border-white/10 bg-white/4 p-4">
+        <p class="text-2xl font-black text-white">24/7</p>
+        <p class="mt-1 text-xs font-medium uppercase text-slate-400">Operacao digital</p>
+      </div>
+      <div class="rounded-lg border border-white/10 bg-white/4 p-4">
+        <p class="text-2xl font-black text-white">∞</p>
+        <p class="mt-1 text-xs font-medium uppercase text-slate-400">Escala de rede</p>
+      </div>
+    </div>
   </div>
 
-  <!-- IMAGEM -->
-  <div>
-    <img 
-      src="imagens/bandeira.png"
-      alt="Bandeira Infinitum"
-      class="rounded-xl shadow-lg hover:scale-105 transition duration-300"
-    />
+  <div class="relative">
+    <div class="absolute -inset-6 rounded-4xl bg-cyan-300/10 blur-3xl"></div>
+    <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900/70 p-4 shadow-2xl shadow-slate-950/60">
+      <img
+        src="imagens/bandeira.png"
+        alt="Bandeira da Infinitum"
+        class="aspect-4/3 w-full rounded-xl object-cover"
+      />
+      <div class="mt-4 grid grid-cols-2 gap-3">
+        <div class="rounded-lg border border-emerald-300/20 bg-emerald-300/10 p-4">
+          <p class="text-sm font-semibold text-emerald-200">Forca central</p>
+          <p class="mt-1 text-sm text-slate-300">Infraestrutura digital distribuida.</p>
+        </div>
+        <div class="rounded-lg border border-amber-300/20 bg-amber-300/10 p-4">
+          <p class="text-sm font-semibold text-amber-200">Ponto critico</p>
+          <p class="mt-1 text-sm text-slate-300">Dependencia de sistemas conectados.</p>
+        </div>
+      </div>
+    </div>
   </div>
-
 </section>

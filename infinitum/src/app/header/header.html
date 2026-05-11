@@ -1,23 +1,41 @@
-<header class="bg-blue-950 border-b border-blue-500/30 shadow-lg">
-  <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
-    
-    <div class="flex items-center gap-3">
-  
-  <div class="w-10 h-10 rounded-full bg-linear-to-br from-blue-500 to-blue-900 flex items-center justify-center">
-    <span class="text-white font-bold">I</span>
-  </div>
+<header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl">
+  <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
+    <a routerLink="/" class="group flex items-center gap-3" aria-label="Infinitum Home">
+      <div class="grid h-11 w-11 place-items-center rounded-lg border border-cyan-300/30 bg-cyan-400/10 shadow-lg shadow-cyan-500/10 transition group-hover:border-cyan-200/60">
+        <span class="text-lg font-black text-cyan-200">I</span>
+      </div>
 
-  <h1 class="text-xl font-bold text-blue-400 tracking-widest">
-    INF<span class="text-white">INITUM</span>
-  </h1>
+      <div>
+        <h1 class="text-lg font-black tracking-[0.18em] text-cyan-200 sm:text-xl">
+          INF<span class="text-white">INITUM</span>
+        </h1>
+        <p class="text-xs font-medium text-slate-400">cloud, dados e resiliencia</p>
+      </div>
+    </a>
 
-</div>
-
-    <div class="space-x-6 text-sm text-gray-200">
-      <a routerLink="/" class="hover:text-blue-400 transition">Home</a>
-      <a routerLink="/perfil" class="hover:text-blue-400 transition">Perfil</a>
-      <a routerLink="/contato" class="hover:text-blue-400 transition">Contato</a>
+    <div class="flex items-center gap-1 rounded-lg border border-white/10 bg-white/4 p-1 text-sm font-medium text-slate-300">
+      <a
+        routerLink="/"
+        routerLinkActive="bg-white/10 text-white shadow-sm"
+        [routerLinkActiveOptions]="{ exact: true }"
+        class="rounded-md px-3 py-2 transition hover:text-white sm:px-4"
+      >
+        Home
+      </a>
+      <a
+        routerLink="/perfil"
+        routerLinkActive="bg-white/10 text-white shadow-sm"
+        class="rounded-md px-3 py-2 transition hover:text-white sm:px-4"
+      >
+        Perfil
+      </a>
+      <a
+        routerLink="/contato"
+        routerLinkActive="bg-white/10 text-white shadow-sm"
+        class="rounded-md px-3 py-2 transition hover:text-white sm:px-4"
+      >
+        Contato
+      </a>
     </div>
-
   </nav>
 </header>
