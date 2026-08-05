@@ -1,0 +1,38 @@
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-dark text-white d-flex
+justify-content-between align-items-center">
+            <h4 class="mb-0">Painel de Controle - Admin</h4>
+            <span class="badge bg-secondary">{{ noticias().length }}
+                Notícias no Sistema</span>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Título</th>
+                        <th>Data</th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (ev of noticias(); track ev.id) {
+                    <tr>
+                        <td>#{{ ev.id }}</td>
+                        <td class="fw-bold">{{ ev.titulo }}</td>
+                        <td>{{ ev.data | date:'dd/MM/yyyy' }}</td>
+                        <td class="text-center">
+                            <button class="btn btn-sm btn-outline-primary
+me-2">Editar</button>
+                            <button class="btn btn-sm btn-danger" (click)="remover(ev.id)">
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

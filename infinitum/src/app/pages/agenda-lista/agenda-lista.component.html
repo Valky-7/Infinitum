@@ -1,0 +1,36 @@
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center
+mb-4">
+        <h1 class="text-primary fw-bold">📅 Registro de Notícias 2026</h1>
+        <a routerLink="/nova-noticia" class="btn btn-success">+ Sugerir
+            Notícia</a>
+    </div>
+    <div class="row">
+        @for (item of noticias(); track item.id) {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm hover-shadow">
+                <div class="card-body">
+                    <span class="badge bg-info text-dark mb-2">Notícia
+                        Confirmada</span>
+                    <h5 class="card-title fw-bold">{{ item.titulo }}</h5>
+                    <p class="card-text text-muted mb-1">
+                        <i class="bi bi-calendar"></i> {{ item.data |
+                        date:'dd/MM/yyyy' }}
+                    </p>
+                    <hr>
+                    <p class="small text-secondary">{{ item.descricao }}</p>
+                </div>
+                <div class="card-footer bg-white border-0 pb-3">
+                    None
+                    <button class="btn btn-outline-primary w-100">Ver
+                        Detalhes</button>
+                </div>
+            </div>
+        </div>
+        } @empty {
+        <div class="text-center p-5">
+            <p class="lead">Nenhuma notícia registrada no momento.</p>
+        </div>
+        }
+    </div>
+</div>
