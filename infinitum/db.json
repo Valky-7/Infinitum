@@ -12,16 +12,26 @@
     {"id": "10", "nome": "Música"}
   ],
   "noticias": [
-    { "id": "1", "titulo": "Angular Summit", "data": "2026-04-10", "categoriaId": "1", "descricao": "Imersão em Signals." },
-    { "id": "2", "titulo": "Feira de Profissões", "data": "2026-04-15", "categoriaId": "3", "descricao": "Conheça cursos técnicos." },
-    { "id": "3", "titulo": "Hackathon SC", "data": "2026-05-01", "categoriaId": "1", "descricao": "48h de código." },
-    { "id": "4", "titulo": "Workshop de Sushi", "data": "2026-05-05", "categoriaId": "8", "descricao": "Culinária japonesa." },
-    { "id": "5", "titulo": "Corrida do Trabalhador", "data": "2026-05-01", "categoriaId": "7", "descricao": "5km e 10km." },
-    { "id": "6", "titulo": "Exposição de Arte Moderna", "data": "2026-06-12", "categoriaId": "6", "descricao": "Obras locais." },
-    { "id": "7", "titulo": "Palestra Finanças", "data": "2026-06-15", "categoriaId": "5", "descricao": "Como investir." },
-    { "id": "8", "titulo": "Show de Jazz", "data": "2026-07-20", "categoriaId": "10", "descricao": "Noite de clássicos." },
-    { "id": "9", "titulo": "Semana da Saúde", "data": "2026-08-05", "categoriaId": "2", "descricao": "Checkups gratuitos." },
-    { "id": "10", "titulo": "Desfile de Inverno", "data": "2026-08-10",  "categoriaId": "9", "descricao": "Tendências 2026." }
+    { "id": "1", "titulo": "Inteligência Artifical transforma o desenvolvimento de softwares em 2026", "data": "2026-08-05", "categoriaId": "1", "descricao": "Ferramentas de inteligência artificial estão acelerando o desenvolvimento de aplicações, automatizando testes, sugerindo códigos e auxiliando equipes na criação de sistemas mais seguros e eficientes. Empresas de diversos setores já investem na tecnologia para reduzir custos e aumentar a produtividade." },
+
+    { "id": "2", "titulo": "Hábitos simples ajudam a melhorar a qualidade do sono", "data": "2026-08-04", "categoriaId": "2", "descricao": "Especialistas recomendam evitar o uso de telas antes de dormir, manter horários regulares e praticar atividades físicas durante o dia. Essas mudanças contribuem para um sono mais profundo, melhor disposição e maior qualidade de vida." },
+
+    { "id": "3", "titulo": "Escolas ampliam o uso de plataformas digitais em sala de aula", "data": "2026-08-03", "categoriaId": "3", "descricao": "Instituições de ensino vêm adotando recursos digitais para complementar o aprendizado. Ambientes virtuais, videoaulas e atividades interativas tornam as aulas mais dinâmicas e incentivam a participação dos estudantes." },
+
+    { "id": "4", "titulo": "Turismo ecológico cresce entre os destinos mais procurados", "data": "2026-08-02", "categoriaId": "4", "descricao": "Viagens voltadas ao contato com a natureza registram aumento na procura. Trilhas, cachoeiras e parques naturais atraem visitantes interessados em experiências sustentáveis e momentos de descanso longe dos grandes centros urbanos." },
+
+    { "id": "5", "titulo": "Pequenas empresas investem em vendas online para expandir mercado", "data": "2026-08-01", "categoriaId": "5", "descricao": "Empreendedores estão ampliando sua presença digital por meio de lojas virtuais e redes sociais. A estratégia aumenta o alcance dos produtos, fortalece a marca e cria novas oportunidades de crescimento." },
+
+    { "id": "6", "titulo": "Exposição reúne artistas contemporâneos em mostra interativa", "data": "2026-07-31", "categoriaId": "6", "descricao": "A exposição apresenta obras que utilizam recursos tecnológicos e instalações imersivas para aproximar o público da arte. Os visitantes podem interagir com diferentes ambientes e participar de experiências sensoriais." },
+
+    { "id": "7", "titulo": "Campeonato nacional movimenta torcedores em todo o país", "data": "2026-07-30", "categoriaId": "7", "descricao": "A nova rodada do campeonato nacional reuniu grandes confrontos e estádios lotados. Equipes disputam posições importantes na tabela enquanto os torcedores acompanham cada partida com grande expectativa." },
+
+    { "id": "8", "titulo": "Culinária regional conquista espaço em festivais gastronômicos", "data": "2026-07-29", "categoriaId": "8", "descricao": "Pratos típicos preparados com ingredientes locais ganharam destaque em festivais realizados pelo país. Chefs valorizam receitas tradicionais e apresentam releituras que atraem turistas e amantes da boa gastronomia." },
+
+    { "id": "9", "titulo": "Moda sustentável ganha força entre marcas e consumidores", "data": "2026-07-28", "categoriaId": "9", "descricao": "O uso de tecidos reciclados e processos de produção mais sustentáveis vem crescendo na indústria da moda. Consumidores demonstram maior preocupação com o impacto ambiental e buscam peças produzidas de forma consciente." },
+
+    { "id": "10", "titulo": "Novos artistas brasileiros conquistam destaque nas plataformas de streaming", "data": "2026-07-27",  "categoriaId": "10", "descricao": "Cantores independentes estão alcançando milhões de reproduções em plataformas digitais graças às redes sociais e ao crescimento do streaming. O cenário musical se torna cada vez mais diversificado, abrindo espaço para novos talentos." }
+
   ],
   "users": [
     { "id": "1", "nome": "Admin Senai", "email": "admin@senai.com", "senha": "123", "role": "admin"},
