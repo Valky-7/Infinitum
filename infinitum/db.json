@@ -34,6 +34,7 @@
 
   ],
   "users": [
+    
     { "id": "1", "nome": "Admin Senai", "email": "admin@senai.com", "senha": "123", "role": "admin"},
     { "id": "2", "nome": "Aluno Senai", "email": "aluno@senai.com", "senha": "123", "role": "user"}
   ]
